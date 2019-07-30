@@ -1,0 +1,38 @@
+= [WIP] LessThan vim colorscheme
+:author: Maxim Kim
+:experimental:
+:icons: font
+:autofit-option:
+:source-highlighter: rouge
+:rouge-style: github
+:source-linenums-option:
+:imagesdir: images
+
+**WIP**
+
+
+== Screenshots
+
+image::img_README_1.png[]
+
+== Installation
+
+Manual::
+Copy `lessthan.vim` to your `.vim/colors/` folder.
+
+Vim8 packages::
+[source,bash]
+git clone https://github.com/habamax/vim-colors-lessthan.git ~/.vim/pack/my-packages/start/vim-colors-lessthan
+
+or for Windows:
+
+[source,bash]
+git clone https://github.com/habamax/vim-colors-lessthan.git %USERPROFILE%/vimfiles/pack/my-packages/start/vim-colors-lessthan
+
+Plugin managers::
+See plugin manager documentation.
+
+
+== I want white background!
+
+Check https://github.com/habamax/vim-colors-defminus[defminus] colorscheme.
