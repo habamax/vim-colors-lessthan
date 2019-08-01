@@ -178,6 +178,10 @@ hi link tcltkWidgetColor Statement
 " xml
 hi link xmlTagName Statement
 hi link xmlTagN Statement
+hi link xmlTag Statement
+hi link xmlEndTag Statement
+hi link xmlEntity Statement
+hi link xmlEntityPunct Statement
 hi link xmlAttrib Constant
 
 " html
