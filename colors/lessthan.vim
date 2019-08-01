@@ -186,9 +186,10 @@ hi link xmlAttrib Constant
 
 " html
 hi link htmlTagName Statement
-hi link htmlTag Identifier
-hi link htmlEndTag Identifier
-hi link htmlArg Constant
+hi link htmlTag Statement
+hi link htmlTagN Statement
+hi link htmlEndTag Statement
+hi link htmlArg Statement
 hi link htmlSpecialTagName Statement
 hi link htmlSpecialChar SpecialChar
 
