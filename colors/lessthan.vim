@@ -1,6 +1,6 @@
 " lessthan.vim -- vim colorscheme
 "
-" Name:       defnoche
+" Name:       lessthan
 " Maintainer: Maxim Kim <habamax@gmail.com>
 " License:    MIT, but who cares? This is colorscheme.
 "
