@@ -412,6 +412,10 @@ hi link ALEErrorSign WarningMsg
 hi! link restHost Underlined
 hi! link restKeyword Statement
 
+"" vial-http
+hi! link vialHttpVerb Statement
+hi! link vialHttpHeader Statement
+
 "" Plantuml https://github.com/aklt/plantuml-syntax
 hi link plantumlPreProc Statement
 hi link plantumlKeyword Statement
