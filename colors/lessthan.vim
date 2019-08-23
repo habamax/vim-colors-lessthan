@@ -304,12 +304,14 @@ hi diffText guibg=#2f2f09 guifg=NONE gui=NONE ctermbg=3 ctermfg=NONE
 hi diffDelete guibg=#492929 guifg=#707070 gui=NONE ctermbg=52 ctermfg=239
 
 "" fugitive
+hi! link fugitiveUntrackedHeading LessThanBold
 hi! link fugitiveUnstagedHeading LessThanBold
 hi! link fugitiveStagedHeading LessThanBold
 hi! link fugitiveHeader LessThanBold
 hi! link fugitiveHeading LessThanBold
 hi! link gitKeyword LessThanBold
 hi link gitIdentityKeyword gitKeyword
+hi link fugitiveUntrackedModifier Statement
 hi link fugitiveUnstagedModifier Statement
 hi link fugitiveStagedModifier Statement
 hi link fugitiveModifier Statement
