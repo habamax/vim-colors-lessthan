@@ -1,4 +1,4 @@
-= [WIP] LessThan vim colorscheme
+= LessThan vim colorscheme
 :author: Maxim Kim
 :experimental:
 :icons: font
@@ -7,9 +7,6 @@
 :rouge-style: github
 :source-linenums-option:
 :imagesdir: images
-
-**WIP**
-
 
 == Screenshots
 
