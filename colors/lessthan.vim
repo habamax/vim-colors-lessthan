@@ -37,7 +37,7 @@ let g:colors_name = 'lessthan'
 hi LessThanBold guibg=NONE guifg=#8a8a8a gui=bold ctermfg=245 ctermbg=NONE cterm=bold
 
 "" General
-hi Normal guibg=#000000 guifg=#d0d0d0 gui=NONE ctermbg=0 ctermfg=252
+hi Normal guibg=#000000 guifg=#bcbcbc gui=NONE ctermbg=0 ctermfg=250
 hi Cursor guibg=#ffffff ctermbg=15
 hi lCursor guibg=#ff0000 ctermbg=12
 hi NonText guibg=NONE guifg=#303030 gui=NONE ctermfg=236 cterm=NONE
@@ -72,9 +72,9 @@ hi! link ColorColumn CursorLine
 "" Syntax
 
 " generic group-names
-hi Comment guifg=#5e5e5e gui=NONE ctermfg=241
+hi Comment guifg=#404040 gui=NONE ctermfg=241
 
-hi Constant guifg=#8a8a8a gui=NONE ctermfg=245
+hi Constant guifg=#767676 gui=NONE ctermfg=243
 
 hi! link Identifier Normal
 
