@@ -38,7 +38,7 @@ hi LessThanBold guibg=NONE guifg=#8a8a8a gui=bold ctermfg=245 ctermbg=NONE cterm
 
 "" General
 hi Normal guibg=#000000 guifg=#bcbcbc gui=NONE ctermbg=0 ctermfg=250
-hi Cursor guibg=#ffffff ctermbg=15
+hi Cursor guibg=#bcbcbc ctermbg=250
 hi lCursor guibg=#ff0000 ctermbg=12
 hi NonText guibg=NONE guifg=#303030 gui=NONE ctermfg=236 cterm=NONE
 hi! link SpecialKey NonText
@@ -58,7 +58,7 @@ hi! link TabLineSel Normal
 hi WildMenu guibg=#ffff00 guifg=#000000 gui=NONE ctermbg=11 ctermfg=16
 hi Folded guibg=#252525 guifg=#909090 gui=NONE ctermbg=235 ctermfg=246 cterm=NONE
 hi! link FoldColumn Folded
-hi CursorLine guibg=#353535 ctermbg=236 cterm=NONE
+hi CursorLine guibg=#1c1c1c ctermbg=234 cterm=NONE 
 hi! link CursorColumn CursorLine
 hi LineNr guibg=NONE guifg=#909090 ctermbg=NONE ctermfg=246
 hi CursorLineNr guibg=NONE guifg=#d0d0d0 gui=NONE ctermbg=NONE ctermfg=252 cterm=NONE
