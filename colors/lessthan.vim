@@ -72,19 +72,21 @@ hi! link ColorColumn CursorLine
 "" Syntax
 
 " generic group-names
-hi Comment guifg=#404040 gui=NONE ctermfg=241
+hi Comment guifg=#4e4e4e gui=NONE ctermfg=239
 
-hi Constant guifg=#767676 gui=NONE ctermfg=243
+hi String guifg=#949494 gui=NONE ctermfg=246
+
+hi Statement guifg=#767676 gui=NONE ctermfg=243
+
+hi! link Constant Statement
 
 hi! link Identifier Normal
 
-hi! link Statement Constant
-
-hi! link PreProc Constant
+hi! link PreProc Statement
 
 hi! link Type Normal
 
-hi! link Special Constant
+hi! link Special Statement
 
 hi Underlined guifg=#8a8a8a gui=underline ctermbg=0 ctermfg=245
 
