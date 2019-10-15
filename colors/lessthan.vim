@@ -383,7 +383,7 @@ hi link qfLineNr Special
 " separators have an issue -- they are changed by LeaderF
 let s:leaderf_modes = [
 			\'File', 'Buffer', 'Mru', 'Help', 'Rg', 
-			\'Line', 'BufTag', 'Function', 'Cmd_History',
+			\'Line', 'Tag', 'Function', 'Cmd_History',
 			\'Colorscheme', 'Self'
 			\]
 for lf_mode in s:leaderf_modes
