@@ -94,6 +94,7 @@ hi Underlined guifg=#8a8a8a gui=underline ctermbg=0 ctermfg=245
 
 " vim
 hi link vimFuncName Statement
+hi link vimHighlight Statement
 hi link vimVar Normal
 hi link vimOper Normal
 hi link vimParenSep Normal
@@ -103,6 +104,9 @@ hi link vimAutoEvent Constant
 hi link vimHiAttrib Constant
 hi link vimHiCtermColor Constant
 hi link vimCommentTitle Constant
+hi link vimLet Statement
+hi link vimLineComment Comment
+hi link vimCommentString Comment
 
 " python
 hi link pythonInclude Statement
