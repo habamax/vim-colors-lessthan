@@ -355,6 +355,9 @@ hi! link flogGraphEdge9 Constant
 
 "" minpac
 hi link minpacName Statement
+hi link minpacSha Constant
+hi link minpacStatus String
+hi link minpacStar Special
 
 "" UltiSnips
 hi link snipSnippetTrigger Normal
