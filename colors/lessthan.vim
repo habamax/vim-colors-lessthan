@@ -34,7 +34,7 @@ endif
 let g:colors_name = 'lessthan'
 
 "" Helper color groups
-hi LessThanBold guibg=NONE guifg=#8a8a8a gui=bold ctermfg=245 ctermbg=NONE cterm=bold
+hi LessThanBold guibg=NONE guifg=#767676 gui=bold ctermfg=243 ctermbg=NONE cterm=bold
 
 "" General
 hi Normal guibg=#000000 guifg=#bcbcbc gui=NONE ctermbg=0 ctermfg=250
@@ -45,7 +45,7 @@ hi! link SpecialKey NonText
 hi Visual guibg=#103040 guifg=#bcbcbc ctermbg=4
 
 hi! link Directory LessThanBold
-hi Title guibg=NONE guifg=#8a8a8a gui=bold ctermfg=245 cterm=bold
+hi Title guibg=NONE guifg=#767676 gui=bold ctermfg=243 cterm=bold
 hi! link Todo Title
 
 "" UI
