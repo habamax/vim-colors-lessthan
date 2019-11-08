@@ -445,6 +445,13 @@ hi link plantumlHorizontalArrow Special
 hi link plantumlDirectedOrVerticalArrowLR Special
 hi link plantumlDirectedOrVerticalArrowRL Special
 
+"" Dart
+hi link dartType Statement
+hi link dartTypeDef Statement
+hi link dartTypeName Normal
+hi link dartCoreClass Normal
+hi link dartStorageClass Statement
+
 "" DoOutline
 hi link DoOutlineLevel0 Title
 hi link DoOutlineLevel1 Normal
