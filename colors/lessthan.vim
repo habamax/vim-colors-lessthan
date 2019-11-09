@@ -451,6 +451,8 @@ hi link dartTypeDef Statement
 hi link dartTypeName Normal
 hi link dartCoreClass Normal
 hi link dartStorageClass Statement
+hi link dartInterpolation Statement
+hi link dartOperator Statement
 
 "" DoOutline
 hi link DoOutlineLevel0 Title
