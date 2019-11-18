@@ -386,6 +386,7 @@ hi link netrwExe Constant
 hi link netrwDir Directory
 hi link netrwClassify Directory
 hi link netrwTreeBar Delimiter
+hi netrwMarkFile guifg=#ffff00 ctermfg=11
 
 "" quickfix
 hi link qfFilename Comment
