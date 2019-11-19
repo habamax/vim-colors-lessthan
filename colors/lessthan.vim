@@ -470,3 +470,7 @@ hi link DoOutlineLevel6 String
 hi link DoOutlineLevel7 Statement
 hi link DoOutlineLevel8 String
 hi link DoOutlineLevel9 Statement
+
+"" vim-lsp
+hi LspErrorHighlight gui=undercurl guisp=red ctermfg=red cterm=bold
+hi LspWarningHighlight gui=undercurl guisp=yellow ctermfg=yellow
