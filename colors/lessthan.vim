@@ -393,38 +393,6 @@ hi link qfFilename Comment
 hi link qfSeparator Special
 hi link qfLineNr Special
 
-"" LeaderF
-" separators have an issue -- they are changed by LeaderF
-let s:leaderf_modes = [
-			\'File', 'Buffer', 'Mru', 'Help', 'Rg', 
-			\'Line', 'Tag', 'BufTag', 'Function', 'Cmd_History',
-			\'Colorscheme', 'Self'
-			\]
-for lf_mode in s:leaderf_modes
-	execute 'hi Lf_hl_'.lf_mode.'_stlName guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
-	execute 'hi Lf_hl_'.lf_mode.'_stlMode guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
-	execute 'hi Lf_hl_'.lf_mode.'_stlCategory guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
-	execute 'hi Lf_hl_'.lf_mode.'_stlCwd guibg=#5c5c5c guifg=#d0d0d0 gui=NONE ctermbg=241 ctermfg=252'
-	execute 'hi Lf_hl_'.lf_mode.'_stlSeparator0 guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
-	execute 'hi Lf_hl_'.lf_mode.'_stlSeparator1 guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
-	execute 'hi Lf_hl_'.lf_mode.'_stlSeparator2 guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
-	execute 'hi Lf_hl_'.lf_mode.'_stlSeparator3 guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
-	execute 'hi Lf_hl_'.lf_mode.'_stlSeparator4 guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
-	execute 'hi Lf_hl_'.lf_mode.'_stlSeparator5 guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
-	execute 'hi Lf_hl_'.lf_mode.'_stlLineInfo guibg=#5c5c5c guifg=#d0d0d0 gui=NONE ctermbg=241 ctermfg=252'
-	execute 'hi Lf_hl_'.lf_mode.'_stlNameOnlyMode guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
-	execute 'hi Lf_hl_'.lf_mode.'_stlRegexMode guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
-	execute 'hi Lf_hl_'.lf_mode.'_stlFullPathMode guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
-	execute 'hi Lf_hl_'.lf_mode.'_stlFuzzyMode guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
-	execute 'hi Lf_hl_'.lf_mode.'_stlTotal guibg=#5c5c5c guifg=#d0d0d0 gui=NONE ctermbg=241 ctermfg=252'
-	execute 'hi Lf_hl_'.lf_mode.'_stlBlank guibg=#5c5c5c guifg=#d0d0d0 gui=NONE ctermbg=241 ctermfg=252'
-endfor
-
-hi link Lf_hl_bufDirname Comment
-hi link Lf_hl_funcDirname Comment
-hi link Lf_hl_rgFilename Comment
-hi link Lf_hl_rgTagFile Comment
-
 "" CtrlP
 hi CtrlPMatch guifg=#1540AD gui=bold
 
