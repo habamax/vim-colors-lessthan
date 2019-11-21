@@ -50,7 +50,7 @@ hi! link Todo Title
 
 "" UI
 hi Statusline guibg=#5c5c5c guifg=#d0d0d0 gui=NONE ctermbg=241 ctermfg=252 cterm=NONE
-hi StatuslineNC guibg=#3c3c3c guifg=#9b9b9b gui=NONE ctermbg=241 ctermfg=237
+hi StatuslineNC guibg=#3c3c3c guifg=#9b9b9b gui=NONE ctermbg=241 ctermfg=237 cterm=NONE
 hi StatuslineTerm guibg=#005f87 guifg=#d0d0d0 gui=NONE ctermbg=24 ctermfg=252 cterm=NONE
 hi StatuslineTermNC guibg=#005f87 guifg=#9b9b9b gui=NONE ctermbg=24 ctermfg=237 cterm=NONE
 hi VertSplit guibg=#3c3c3c guifg=#3c3c3c gui=NONE ctermbg=241 ctermfg=241 cterm=NONE
@@ -442,3 +442,45 @@ hi link DoOutlineLevel9 Statement
 "" vim-lsp
 hi LspErrorHighlight gui=undercurl guisp=red ctermfg=red cterm=bold
 hi LspWarningHighlight gui=undercurl guisp=yellow ctermfg=yellow
+
+"" LeaderF
+hi link Lf_hl_bufDirname Comment
+hi link Lf_hl_funcDirname Comment
+hi link Lf_hl_rgFilename Comment
+hi link Lf_hl_rgTagFile Comment
+hi link Lf_hl_tagFile Comment
+hi link Lf_hl_tagType Comment
+hi link Lf_hl_tagKeyword Comment
+hi link Lf_hl_buftagKind Comment
+hi link f_hl_buftagScopeType Comment
+hi link f_hl_buftagScope Comment
+hi link f_hl_buftagDirname Comment
+hi link f_hl_buftagCode Comment
+hi link f_hl_helpTagfile Comment
+hi link f_hl_gtagsFileName Comment
+hi Lf_hl_cursorline guifg=#bcbcbc ctermfg=250 
+
+let s:leaderf_modes = [
+			\'File', 'Buffer', 'Mru', 'Help', 'Rg', 
+			\'Line', 'Tag', 'BufTag', 'Function', 'Cmd_History',
+			\'Colorscheme', 'Self'
+			\]
+for lf_mode in s:leaderf_modes
+	execute 'hi Lf_hl_'.lf_mode.'_stlName guibg=#3c3c3c guifg=#909090 gui=bold ctermbg=241 ctermfg=245'
+	execute 'hi Lf_hl_'.lf_mode.'_stlMode guibg=#3c3c3c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
+	execute 'hi Lf_hl_'.lf_mode.'_stlCategory guibg=#3c3c3c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
+	execute 'hi Lf_hl_'.lf_mode.'_stlCwd guibg=#5c5c5c guifg=#d0d0d0 gui=NONE ctermbg=241 ctermfg=252'
+	execute 'hi Lf_hl_'.lf_mode.'_stlSeparator0 guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
+	execute 'hi Lf_hl_'.lf_mode.'_stlSeparator1 guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
+	execute 'hi Lf_hl_'.lf_mode.'_stlSeparator2 guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
+	execute 'hi Lf_hl_'.lf_mode.'_stlSeparator3 guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
+	execute 'hi Lf_hl_'.lf_mode.'_stlSeparator4 guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
+	execute 'hi Lf_hl_'.lf_mode.'_stlSeparator5 guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
+	execute 'hi Lf_hl_'.lf_mode.'_stlLineInfo guibg=#3c3c3c guifg=#909090 gui=NONE ctermbg=241 ctermfg=252'
+	execute 'hi Lf_hl_'.lf_mode.'_stlNameOnlyMode guibg=#3c3c3c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
+	execute 'hi Lf_hl_'.lf_mode.'_stlRegexMode guibg=#3c3c3c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
+	execute 'hi Lf_hl_'.lf_mode.'_stlFullPathMode guibg=#3c3c3c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
+	execute 'hi Lf_hl_'.lf_mode.'_stlFuzzyMode guibg=#3c3c3c guifg=#909090 gui=NONE ctermbg=241 ctermfg=245'
+	execute 'hi Lf_hl_'.lf_mode.'_stlTotal guibg=#3c3c3c guifg=#909090 gui=NONE ctermbg=241 ctermfg=252'
+	execute 'hi Lf_hl_'.lf_mode.'_stlBlank guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=252'
+endfor
