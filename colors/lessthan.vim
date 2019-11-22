@@ -69,6 +69,7 @@ hi Pmenu guibg=#555555 guifg=#d0d0d0 gui=NONE ctermbg=240 ctermfg=252
 hi PmenuSel guibg=#c0c0c0 guifg=#505050 gui=bold ctermbg=250 ctermfg=240
 hi QuickFixLine guibg=#707070 guifg=#d0d0d0 gui=none ctermbg=3 ctermfg=252
 hi! link ColorColumn CursorLine
+hi EndOfBuffer guifg=#444444 ctermbg=238
 
 
 "" Syntax
