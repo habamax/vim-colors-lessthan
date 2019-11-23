@@ -65,8 +65,10 @@ hi! link CursorColumn CursorLine
 hi LineNr guibg=NONE guifg=#909090 ctermbg=NONE ctermfg=246
 hi CursorLineNr guibg=NONE guifg=#d0d0d0 gui=NONE ctermbg=NONE ctermfg=252 cterm=NONE
 hi SignColumn guibg=NONE cterm=NONE
-hi Pmenu guibg=#555555 guifg=#d0d0d0 gui=NONE ctermbg=240 ctermfg=252
-hi PmenuSel guibg=#c0c0c0 guifg=#505050 gui=bold ctermbg=250 ctermfg=240
+hi Pmenu guibg=#262626 guifg=#bcbcbc gui=NONE ctermbg=235 ctermfg=250
+hi PmenuSel guibg=#bcbcbc guifg=#262626 gui=NONE ctermbg=250 ctermfg=235
+hi PmenuSbar guibg=#3a3a3a ctermbg=237
+hi PmenuThumb guibg=#808080 ctermbg=244
 hi QuickFixLine guibg=#707070 guifg=#d0d0d0 gui=none ctermbg=3 ctermfg=252
 hi! link ColorColumn CursorLine
 hi EndOfBuffer guifg=#444444 ctermbg=238
