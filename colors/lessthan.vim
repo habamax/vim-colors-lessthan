@@ -455,12 +455,12 @@ hi link Lf_hl_tagFile Comment
 hi link Lf_hl_tagType Comment
 hi link Lf_hl_tagKeyword Comment
 hi link Lf_hl_buftagKind Comment
-hi link f_hl_buftagScopeType Comment
-hi link f_hl_buftagScope Comment
-hi link f_hl_buftagDirname Comment
-hi link f_hl_buftagCode Comment
-hi link f_hl_helpTagfile Comment
-hi link f_hl_gtagsFileName Comment
+hi link Lf_hl_buftagScopeType Comment
+hi link Lf_hl_buftagScope Comment
+hi link Lf_hl_buftagDirname Comment
+hi link Lf_hl_buftagCode Comment
+hi link Lf_hl_helpTagfile Comment
+hi link Lf_hl_gtagsFileName Comment
 hi Lf_hl_cursorline guifg=#bcbcbc ctermfg=250 
 
 " Leaderf "chrome"
