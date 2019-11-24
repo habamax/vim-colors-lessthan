@@ -484,10 +484,12 @@ hi Lf_hl_stlBlank guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=252
 
 hi! link Lf_hl_popup_window Normal
 hi! link Lf_hl_popup_inputMode Lf_hl_stlName 
-hi! link Lf_hl_popup_inputText StatusLineNC
+hi! link Lf_hl_popup_inputText StatusLine
+hi! link Lf_hl_popup_prompt StatusLineNC
+hi! link Lf_hl_popup_spin Normal
 hi! link Lf_hl_popup_mode Lf_hl_stlMode 
 hi! link Lf_hl_popup_category Lf_hl_stlCategory
-hi! link Lf_hl_popup_cwd Lf_hl_stlCwd
+hi! link Lf_hl_popup_cwd StatusLineNC
 hi! link Lf_hl_popup_separator0 Lf_hl_stlSeparator0
 hi! link Lf_hl_popup_separator1 Lf_hl_stlSeparator1
 hi! link Lf_hl_popup_separator2 Lf_hl_stlSeparator2
@@ -500,4 +502,4 @@ hi! link Lf_hl_popup_regexMode Lf_hl_stlRegexMode
 hi! link Lf_hl_popup_fullPathMode Lf_hl_stlFullPathMode 
 hi! link Lf_hl_popup_fuzzyMode Lf_hl_stlFuzzyMode 
 hi! link Lf_hl_popup_total Lf_hl_stlTotal 
-hi! link Lf_hl_popup_blank Lf_hl_stlBlank
+hi! link Lf_hl_popup_blank StatusLineNC
