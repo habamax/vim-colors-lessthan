@@ -268,6 +268,11 @@ hi link clojureMacro Statement
 hi link clojureDefine Statement
 hi link clojureFunc Statement
 
+" groovy
+hi link groovyExternal Statement
+hi link groovyExceptions Normal
+hi link groovyJDKbuiltin Statement
+
 " php
 hi link phpDocTags String
 hi link phpDocCustomTags String
