@@ -400,6 +400,11 @@ hi link netrwClassify Directory
 hi link netrwTreeBar Delimiter
 hi netrwMarkFile guifg=#ffff00 ctermfg=11
 
+"" dirvish
+hi link dirvishSuffix String
+hi link dirvishColumnHead Comment
+hi link dirvishPathHead Comment
+
 "" quickfix
 hi link qfFilename Comment
 hi link qfSeparator Special
