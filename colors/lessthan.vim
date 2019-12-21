@@ -42,7 +42,7 @@ hi Cursor guibg=#bcbcbc ctermbg=250
 hi lCursor guibg=#ff0000 ctermbg=12
 hi NonText guibg=NONE guifg=#303030 gui=NONE ctermfg=236 cterm=NONE
 hi! link SpecialKey NonText
-hi Visual guibg=#103040 guifg=#bcbcbc ctermbg=4
+hi Visual guibg=#103040 guifg=#bcbcbc ctermbg=4 ctermfg=250
 
 hi! link Directory LessThanBold
 hi Title guibg=NONE guifg=#767676 gui=bold ctermfg=243 cterm=bold
