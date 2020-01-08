@@ -299,13 +299,26 @@ hi link rType Statement
 hi link rOperator Normal
 hi link rAssign Normal
 
+" asciidoctor
+hi link asciidoctorListMarker Special
+hi link asciidoctorOption Special
+hi link asciidoctorMacro Special
+hi link asciidoctorIndented String
+hi asciidoctorTitle guifg=#eeeeee gui=bold ctermfg=255 cterm=bold
+hi link asciidoctorH1 asciidoctorTitle
+hi link asciidoctorH2 asciidoctorTitle
+hi link asciidoctorH3 asciidoctorTitle
+hi link asciidoctorH4 asciidoctorTitle
+hi link asciidoctorH5 asciidoctorTitle
+hi link asciidoctorH6 asciidoctorTitle
+
 " markdown
-hi link markdownH1 Title
-hi link markdownH2 Title
-hi link markdownH3 Title
-hi link markdownH4 Title
-hi link markdownH5 Title
-hi link markdownH6 Title
+hi link markdownH1 asciidoctorTitle
+hi link markdownH2 asciidoctorTitle
+hi link markdownH3 asciidoctorTitle
+hi link markdownH4 asciidoctorTitle
+hi link markdownH5 asciidoctorTitle
+hi link markdownH6 asciidoctorTitle
 hi link markdownHeadingDelimiter Special
 hi link markdownHeadingRule Special
 hi link markdownUrl Underlined
@@ -316,12 +329,6 @@ hi link markdownUrlDelimiter Identifier
 hi link markdownListMarker Special
 hi link markdownCode Constant
 hi link markdownCodeDelimiter markdownCode
-
-" asciidoctor
-hi link asciidoctorListMarker Special
-hi link asciidoctorOption Special
-hi link asciidoctorMacro Special
-hi link asciidoctorIndented String
 
 "" Diff
 hi diffAdd guibg=#294929 ctermbg=22
