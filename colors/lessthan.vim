@@ -292,6 +292,7 @@ hi link dosbatchImplicit Statement
 " sh
 hi link shSet Statement
 hi link shQuote Identifier
+hi link shForPP Normal
 
 " R
 hi link rFunction Statement
