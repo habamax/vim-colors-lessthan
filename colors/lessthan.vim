@@ -62,8 +62,8 @@ hi Folded guibg=#252525 guifg=#909090 gui=NONE ctermbg=235 ctermfg=246 cterm=NON
 hi! link FoldColumn Folded
 hi CursorLine guibg=#1c1c1c ctermbg=234 cterm=NONE 
 hi! link CursorColumn CursorLine
-hi LineNr guibg=NONE guifg=#909090 ctermbg=NONE ctermfg=246
-hi CursorLineNr guibg=NONE guifg=#d0d0d0 gui=NONE ctermbg=NONE ctermfg=252 cterm=NONE
+hi LineNr guibg=#1a1a1a guifg=#909090 ctermbg=NONE ctermfg=246
+hi CursorLineNr guibg=#1c1c1c guifg=#d0d0d0 gui=NONE ctermbg=NONE ctermfg=252 cterm=NONE
 hi SignColumn guibg=NONE cterm=NONE
 hi Pmenu guibg=#262626 guifg=#bcbcbc gui=NONE ctermbg=235 ctermfg=250
 hi PmenuSel guibg=#bcbcbc guifg=#262626 gui=NONE ctermbg=250 ctermfg=235
