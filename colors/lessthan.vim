@@ -96,7 +96,10 @@ hi! link Special Statement
 
 hi Underlined guifg=#8a8a8a gui=underline ctermbg=0 ctermfg=245
 
-hi! link Conceal Comment
+" The same as comment
+" Defined separately to be able to redefine comments without affecting conceal
+" Say, you want to make Comments italic, but not Conceal
+hi Conceal guifg=#4e4e4e gui=NONE ctermfg=239
 
 " vim
 hi link vimFuncName Statement
