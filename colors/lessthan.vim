@@ -60,7 +60,7 @@ hi! link TabLineSel Normal
 hi WildMenu guibg=#ffff00 guifg=#000000 gui=NONE ctermbg=11 ctermfg=16
 hi Folded guibg=#252525 guifg=#909090 gui=NONE ctermbg=235 ctermfg=246 cterm=NONE
 hi! link FoldColumn Folded
-hi CursorLine guibg=#1c1c1c ctermbg=234 cterm=NONE 
+hi CursorLine guibg=#1c1c1c guifg=NONE ctermbg=234 ctermfg=NONE cterm=NONE 
 hi! link CursorColumn CursorLine
 hi LineNr guibg=NONE guifg=#909090 ctermbg=NONE ctermfg=246
 hi CursorLineNr guibg=#1c1c1c guifg=#d0d0d0 gui=NONE ctermbg=NONE ctermfg=252 cterm=NONE
