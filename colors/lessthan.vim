@@ -57,7 +57,7 @@ hi StatuslineTermNC guibg=#005f87 guifg=#9b9b9b gui=NONE ctermbg=24 ctermfg=237 
 hi VertSplit guibg=#3a3a3a guifg=#3a3a3a gui=NONE ctermbg=237 ctermfg=237 cterm=NONE
 hi! link TabLine StatusLineNC
 hi! link TabLineFill TabLine
-hi! link TabLineSel Normal
+hi! link TabLineSel LessThanNormal
 hi WildMenu guibg=#ffff00 guifg=#000000 gui=NONE ctermbg=11 ctermfg=16
 hi Folded guibg=#252525 guifg=#909090 gui=NONE ctermbg=235 ctermfg=246 cterm=NONE
 hi! link FoldColumn Folded
@@ -87,11 +87,11 @@ hi Statement guifg=#767676 gui=NONE ctermfg=243
 
 hi! link Constant Statement
 
-hi! link Identifier Normal
+hi! link Identifier LessThanNormal
 
 hi! link PreProc Statement
 
-hi! link Type Normal
+hi! link Type LessThanNormal
 
 hi! link Special Statement
 
@@ -427,8 +427,8 @@ hi! link CtrlPMode1 StatusLine
 hi! link CtrlPMode2 StatusLine
 hi CtrlPMatch guifg=#0087d7 gui=bold ctermfg=33 cterm=bold
 hi link CtrlPNoEntries WarningMsg
-hi! link CtrlPPrtText Normal
-hi! link CtrlPPrtBase Normal
+hi! link CtrlPPrtText LessThanNormal
+hi! link CtrlPPrtBase LessThanNormal
 hi! link CtrlPBufname Comment
 hi! link CtrlPBufferPath Comment
 hi! link CtrlPTagKind Statement
@@ -518,7 +518,7 @@ hi Lf_hl_stlFuzzyMode guibg=#3c3c3c guifg=#909090 gui=NONE ctermbg=241 ctermfg=2
 hi Lf_hl_stlTotal guibg=#3c3c3c guifg=#909090 gui=NONE ctermbg=241 ctermfg=252
 hi Lf_hl_stlBlank guibg=#5c5c5c guifg=#909090 gui=NONE ctermbg=241 ctermfg=252
 
-hi! link Lf_hl_popup_window Normal
+hi! link Lf_hl_popup_window LessThanNormal
 hi! link Lf_hl_popup_inputMode StatusLine 
 hi! link Lf_hl_popup_inputText StatusLineNC
 hi! link Lf_hl_popup_prompt StatusLine
