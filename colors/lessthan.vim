@@ -35,6 +35,7 @@ let g:colors_name = 'lessthan'
 
 "" Helper color groups
 hi LessThanBold guibg=NONE guifg=#767676 gui=bold ctermfg=243 ctermbg=NONE cterm=bold
+hi LessThanNormal guibg=#000000 guifg=#bcbcbc gui=NONE ctermbg=0 ctermfg=250
 
 "" General
 hi Normal guibg=#000000 guifg=#bcbcbc gui=NONE ctermbg=0 ctermfg=250
@@ -104,9 +105,9 @@ hi Conceal guifg=#4e4e4e guibg=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
 " vim
 hi link vimFuncName Statement
 hi link vimHighlight Statement
-hi link vimVar Normal
-hi link vimOper Normal
-hi link vimParenSep Normal
+hi link vimVar LessThanNormal
+hi link vimOper LessThanNormal
+hi link vimParenSep LessThanNormal
 hi link vimMapModKey Special
 hi link vimMapMod vimMapModKey
 hi link vimAutoEvent Constant
@@ -116,9 +117,9 @@ hi link vimCommentTitle Constant
 hi link vimLet Statement
 hi link vimLineComment Comment
 hi link vimCommentString Comment
-hi link vimOption Normal
-hi link vimSubstPat Normal
-hi link vimCmdSep Normal
+hi link vimOption LessThanNormal
+hi link vimSubstPat LessThanNormal
+hi link vimCmdSep LessThanNormal
 
 " python
 hi link pythonInclude Statement
@@ -135,7 +136,7 @@ hi link rubyClass Statement
 hi link rubyMacro Statement
 hi link rubyStringDelimiter String
 hi link rubyDefine Statement
-hi link rubyMethodName Normal
+hi link rubyMethodName LessThanNormal
 
 " lua
 hi link luaFunction Statement
@@ -149,7 +150,7 @@ hi link elixirDefine Statement
 hi link elixirAtom Constant
 hi link elixirExUnitMacro Statement
 hi link elixirBlockDefinition Statement
-hi link elixirFunctionDeclaration Normal
+hi link elixirFunctionDeclaration LessThanNormal
 hi link elixirStringDelimiter String
 hi link elixirMapDelimiter Special
 hi link elixirOperator Identifier
@@ -159,12 +160,12 @@ hi link elixirDocTest Identifier
 hi link elixirVariable Constant
 hi link elixirUnusedVariable Comment
 hi link elixirKeyword Statement
-hi link elixirId Normal
+hi link elixirId LessThanNormal
 
 
 " properties
 hi link jpropertiesIdentifier Statement
-hi link jpropertiesString Normal
+hi link jpropertiesString LessThanNormal
 
 " kotlin
 hi link ktStructure Statement
@@ -238,7 +239,7 @@ hi link yamlDocumentStart Comment
 hi link jsonKeyword Statement
 hi link jsonKeywordMatch Statement
 hi link jsonString String
-hi link jsonQuote Normal
+hi link jsonQuote LessThanNormal
 hi link yamlKeyValueDelimiter Statement
 
 " sql
@@ -263,8 +264,8 @@ hi link csStorage Statement
 hi link csModifier Statement
 hi link csClass Statement
 hi link csType Statement
-hi link csOpSymbols Normal
-hi link csLogicSymbols Normal
+hi link csOpSymbols LessThanNormal
+hi link csLogicSymbols LessThanNormal
 
 " clojure
 hi link clojureMacro Statement
@@ -273,7 +274,7 @@ hi link clojureFunc Statement
 
 " groovy
 hi link groovyExternal Statement
-hi link groovyExceptions Normal
+hi link groovyExceptions LessThanNormal
 hi link groovyJDKbuiltin Statement
 
 " php
@@ -285,8 +286,8 @@ hi link phpStorageClass Statement
 hi link phpDefine Statement
 hi link phpVarSelector Identifier
 hi link phpSpecialFunction Identifier
-hi link phpOperator Normal
-hi link phpComparison Normal
+hi link phpOperator LessThanNormal
+hi link phpComparison LessThanNormal
 hi link phpType Constant
 
 " dos batch
@@ -295,13 +296,13 @@ hi link dosbatchImplicit Statement
 " sh
 hi link shSet Statement
 hi link shQuote Identifier
-hi link shForPP Normal
+hi link shForPP LessThanNormal
 
 " R
 hi link rFunction Statement
 hi link rType Statement
-hi link rOperator Normal
-hi link rAssign Normal
+hi link rOperator LessThanNormal
+hi link rAssign LessThanNormal
 
 " asciidoctor
 hi link asciidoctorListMarker Special
@@ -363,7 +364,7 @@ hi diffRemoved guibg=NONE guifg=#f04749 ctermfg=196
 hi link gitCommitSummary Title
 hi link gitCommitHeader fugitiveHeader
 hi link gitCommitSelectedType Constant
-hi link gitCommitSelectedFile Normal
+hi link gitCommitSelectedFile LessThanNormal
 
 "" Flog
 hi! link flogDate Identifier
@@ -387,7 +388,7 @@ hi link minpacStatus String
 hi link minpacStar Special
 
 "" UltiSnips
-hi link snipSnippetTrigger Normal
+hi link snipSnippetTrigger LessThanNormal
 hi link snipMirror Special
 hi link snipTabStop Special
 
@@ -403,8 +404,8 @@ hi helpSectionDelim guifg=#909090 ctermfg=245
 hi link helpOption Constant
 
 "" netrw
-hi link netrwDateSep Normal
-hi link netrwTimeSep Normal
+hi link netrwDateSep LessThanNormal
+hi link netrwTimeSep LessThanNormal
 hi link netrwExe Constant
 hi link netrwDir Directory
 hi link netrwClassify Directory
@@ -450,7 +451,8 @@ hi link plantumlPreProc Statement
 hi link plantumlKeyword Statement
 hi link plantumlTypeKeyword Statement
 hi link plantumlColonLine String
-hi link plantumlActivityLabel Normal
+hi link plantumlActivityLabel LessThanNormal
+hi link plantumlActivityThing LessThanNormal
 hi link plantumlHorizontalArrow Special
 hi link plantumlDirectedOrVerticalArrowLR Special
 hi link plantumlDirectedOrVerticalArrowRL Special
@@ -458,15 +460,15 @@ hi link plantumlDirectedOrVerticalArrowRL Special
 "" Dart
 hi link dartType Statement
 hi link dartTypeDef Statement
-hi link dartTypeName Normal
-hi link dartCoreClass Normal
+hi link dartTypeName LessThanNormal
+hi link dartCoreClass LessThanNormal
 hi link dartStorageClass Statement
 hi link dartInterpolation Statement
 hi link dartOperator Statement
 
 "" DoOutline
 hi link DoOutlineLevel0 Title
-hi link DoOutlineLevel1 Normal
+hi link DoOutlineLevel1 LessThanNormal
 hi link DoOutlineLevel2 String
 hi link DoOutlineLevel3 Statement
 hi link DoOutlineLevel4 String
