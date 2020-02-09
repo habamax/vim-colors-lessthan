@@ -34,7 +34,7 @@ endif
 let g:colors_name = 'lessthan'
 
 "" Helper color groups
-hi LessThanBold guibg=NONE guifg=#767676 gui=bold ctermfg=243 ctermbg=NONE cterm=bold
+hi LessThanBold guibg=NONE guifg=#bcbcbc gui=bold ctermfg=250 ctermbg=NONE cterm=bold
 hi LessThanNormal guibg=#000000 guifg=#bcbcbc gui=NONE ctermbg=0 ctermfg=250
 
 "" General
@@ -45,8 +45,8 @@ hi NonText guibg=NONE guifg=#303030 gui=NONE ctermfg=236 cterm=NONE
 hi! link SpecialKey NonText
 hi Visual guibg=#103040 guifg=#bcbcbc ctermbg=4 ctermfg=250
 
-hi! link Directory LessThanBold
-hi Title guibg=NONE guifg=#767676 gui=bold ctermfg=243 cterm=bold
+hi Directory guibg=NONE guifg=#767676 gui=bold ctermfg=243 ctermbg=NONE cterm=bold
+hi Title guibg=NONE guifg=#eeeeee gui=bold ctermfg=255 cterm=bold
 hi! link Todo Title
 
 "" UI
@@ -312,7 +312,7 @@ hi link asciidoctorListMarker Special
 hi link asciidoctorOption Special
 hi link asciidoctorMacro Special
 hi link asciidoctorIndented String
-hi asciidoctorTitle guifg=#eeeeee gui=bold ctermfg=255 cterm=bold
+" hi asciidoctorTitle guifg=#eeeeee gui=bold ctermfg=255 cterm=bold
 hi link asciidoctorH1 asciidoctorTitle
 hi link asciidoctorH2 asciidoctorTitle
 hi link asciidoctorH3 asciidoctorTitle
