@@ -356,6 +356,7 @@ hi link fugitiveUntrackedModifier Statement
 hi link fugitiveUnstagedModifier Statement
 hi link fugitiveStagedModifier Statement
 hi link fugitiveModifier Statement
+hi link fugitiveHash Statement
 hi link fugitiveSymbolicRef Constant
 hi link diffIndexLine Identifier
 hi link diffFile Title
@@ -365,9 +366,12 @@ hi link diffSubName diffLine
 hi diffAdded guibg=NONE guifg=#00c000 ctermfg=114
 hi diffRemoved guibg=NONE guifg=#f04749 ctermfg=196
 hi link gitCommitSummary Title
+hi link gitCommitBranch String
 hi link gitCommitHeader fugitiveHeader
 hi link gitCommitSelectedType Constant
 hi link gitCommitSelectedFile LessThanNormal
+hi link gitCommitSelected Comment
+hi link gitCommitComment Comment
 
 "" Flog
 hi! link flogDate Identifier
